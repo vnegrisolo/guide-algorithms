@@ -1,5 +1,3 @@
-require 'pry'
-
 # Algorith to palindroma
 class Palindrome
   def palindrome?(text)

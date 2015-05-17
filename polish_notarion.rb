@@ -1,5 +1,3 @@
-require 'pry'
-
 # Algorith to evaluate the reverse polish notation
 class PolishNotation
   OPERATORS = %w(+ - * /)

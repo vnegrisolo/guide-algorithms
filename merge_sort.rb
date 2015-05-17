@@ -1,5 +1,3 @@
-require 'pry'
-
 # Algorith to merge sort
 class MergeSort
   def sort(array, direction = :asc)
