@@ -15,7 +15,9 @@ class MergeSort
   private
 
   def merge(a1, a2, direction)
-    array, i, j = [], 0, 0
+    array = []
+    i = 0
+    j = 0
 
     while next?(a1, i) || next?(a2, j)
       array << (choose_first?(a1[i], a2[j], direction) ? a1[i] : a2[j])
