@@ -6,7 +6,8 @@ class Nameless
     text = let_alpha_numeric(text)
     return true if text.size < 2
 
-    i, j = 0, text.size - 1
+    i = 0
+    j = text.size - 1
     while i < j
       return false if text[i] != text[j]
       i += 1

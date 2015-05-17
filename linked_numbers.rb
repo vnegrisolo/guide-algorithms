@@ -11,7 +11,8 @@ class LinkedNumbers
   def add_nodes(node_1, node_2, result = nil, rest = 0)
     return result unless node_1 || node_2
 
-    v1, v2 = node_value(node_1), node_value(node_2)
+    v1 = node_value(node_1)
+    v2 = node_value(node_2)
 
     sum = v1 + v2 + rest
     result = add_result(result, sum % 10)
