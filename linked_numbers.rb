@@ -1,5 +1,3 @@
-require 'pry'
-
 # Algorith to add two linked list in reverse order
 class LinkedNumbers
   def add(list_1, list_2)

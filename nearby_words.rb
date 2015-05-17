@@ -1,5 +1,3 @@
-require 'pry'
-
 # Algorith to suggesting when typing
 class NearbyWords
   DICTIONARY = %w(hi go)
