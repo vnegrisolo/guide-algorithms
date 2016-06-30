@@ -2,6 +2,7 @@ require 'spec_helper'
 
 class City
   def foo; end
+
   def bar; end
 end
 
@@ -27,6 +28,6 @@ RSpec.describe Monk do
   end
 
   it 'works with Proc' do
-    expect(find_it(lambda{}, :call)).to eq(Proc)
+    expect(find_it(-> {}, :call)).to eq(Proc)
   end
 end
