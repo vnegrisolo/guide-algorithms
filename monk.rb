@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 module Monk
   def find_it(obj, method)
     klass = obj.is_a?(Class) ? obj : obj.class

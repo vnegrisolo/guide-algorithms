@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Algorith to nameless
 class Nameless
   def palindrome?(text)

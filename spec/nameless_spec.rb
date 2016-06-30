@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'spec_helper'
 
 describe Nameless do
@@ -6,11 +7,11 @@ describe Nameless do
   describe '#palindrome?' do
     context 'is palindrome' do
       %w(
-        'a'
-        '5'
-        'a6a'
-        '5g5'
-        'asdf98766789fdsa'
+        a
+        5
+        a6a
+        5g5
+        asdf98766789fdsa
       ).each do |t|
         it { expect(subject.palindrome?(t)).to be true }
       end
@@ -18,9 +19,9 @@ describe Nameless do
 
     context 'is not palindrome' do
       %w(
-        'a6b'
-        '9g5'
-        'asd87667fdsa'
+        a6b
+        9g5
+        asd87667fdsa
       ).each do |t|
         it { expect(subject.palindrome?(t)).to be false }
       end

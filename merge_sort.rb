@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 # Algorith to merge sort
 class MergeSort
   def sort(array, direction = :asc)

@@ -1,6 +1,7 @@
+# frozen_string_literal: true
 # Algorith to evaluate the reverse polish notation
 class PolishNotation
-  OPERATORS = %w(+ - * /)
+  OPERATORS = %w(+ - * /).freeze
 
   def evaluate(oper_list)
     operands = []

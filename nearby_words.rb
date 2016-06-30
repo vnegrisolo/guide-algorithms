@@ -1,6 +1,7 @@
+# frozen_string_literal: true
 # Algorith to suggesting when typing
 class NearbyWords
-  DICTIONARY = %w(hi go)
+  DICTIONARY = %w(hi go).freeze
 
   # Usage NearbyWords.new.nearby_words('hi')
   def nearby_words(word)
